@@ -1,0 +1,36 @@
+[server]
+port = 8001
+host = "0.0.0.0"
+[pages]
+sign_in = "./UI/web/sign-in/index.html"
+guidelines = "./UI/web/guidelines/index.html"
+example = "./UI/web/example/index.html"
+data_collection = "./UI/web/data_collection/index.html"
+completion = "./UI/web/completion/index.html"
+[assets]
+assets = "./UI/web/assets"
+[data]
+# data = "./data/revisioned_test_set_1_2_v5.json" # path to data directory formatted in json
+# data = 'data/test_set_revised_augmented.json'
+data = 'data/train_set_revised_augmented_partial.json'
+db = './db.sqlite' # path to database
+# db = "/Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/db/train_set/batch_7.sqlite"
+blacklist = 'blacklist.json'                                                                                   # path to black list
+batch_size = 8                                                                                                 # number of items per annotator
+num_batches = 3                                                                                                # number of batches total
+[prolific]
+completion_code = '1234567890'
+
+# wget "localhost:8000/get_all_cookies"
+# wget "localhost:8000/get_statistics?session_key=5fecd4bb91948a9e2d52e632" --output-document /Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/answers/train_set/5fecd4bb91948a9e2d52e632_answers.json
+# wget "localhost:8000/get_statistics?session_key=606bb0ed73698b80f1b3e0e3" --output-document /Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/answers/train_set/606bb0ed73698b80f1b3e0e3_answers.json
+# wget "localhost:8000/get_statistics?session_key=64ef4386a31700e2d88622c9" --output-document /Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/answers/train_set/64ef4386a31700e2d88622c9_answers.json
+# wget "localhost:8000/get_statistics?session_key=5e60f63ee6385a000bcbffc9" --output-document /Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/answers/train_set/5e60f63ee6385a000bcbffc9_answers.json
+# wget "localhost:8000/get_statistics?session_key=5eb40fb9e8373821b19f995a" --output-document /Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/answers/train_set/5eb40fb9e8373821b19f995a_answers.json
+# wget "localhost:8000/get_statistics?session_key=5eb717aa69782962b7f97a1e" --output-document /Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/answers/train_set/5eb717aa69782962b7f97a1e_answers.json
+# wget "localhost:8000/get_statistics?session_key=5ebbf686e7b69402f1994176" --output-document /Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/answers/train_set/5ebbf686e7b69402f1994176_answers.json
+# wget "localhost:8000/get_statistics?session_key=5f05ffb1f7f5f10fc4c44b31" --output-document /Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/answers/train_set/5f05ffb1f7f5f10fc4c44b31_answers.json
+# wget "localhost:8000/get_statistics?session_key=5f53cfc2eeaa260e090f0620" --output-document /Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/answers/train_set/5f53cfc2eeaa260e090f0620_answers.json
+# wget "localhost:8000/get_statistics?session_key=5f7c7f16778fde09b5ecedaa" --output-document /Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/answers/train_set/5f7c7f16778fde09b5ecedaa_answers.json
+# wget "localhost:8000/get_statistics?session_key=601086a82dc5cb3e44e78146" --output-document /Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/answers/train_set/601086a82dc5cb3e44e78146_answers.json
+# wget "localhost:8000/get_statistics?session_key=610ace4933273468b51da78f" --output-document /Users/micheleyin/Documents/Elicitation/crowdsourcing_narrative_elicitation/answers/train_set/610ace4933273468b51da78f_answers.json

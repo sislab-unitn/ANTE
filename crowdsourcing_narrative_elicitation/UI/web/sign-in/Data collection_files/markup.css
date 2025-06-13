@@ -1,0 +1,16 @@
+mark.red {
+  background-color: rgb(254, 122, 122);
+  /* color: rgb(0, 0, 0); */
+}
+
+mark.green {
+  background-color: rgb(154, 242, 136);
+}
+
+mark.blue {
+  background-color: rgb(165, 165, 252);
+}
+
+mark.purple {
+  background-color: rgb(248, 124, 219);
+}
